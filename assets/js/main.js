@@ -13,7 +13,7 @@ Table of Content
     . Testimonials
 	. All Functions
 
- 
+
 ----------------------------------- */
 (function ($) {
     "use strict";
@@ -36,7 +36,7 @@ Table of Content
             $(".main").toggleClass("open");
         });
         $(".cross").on("click", function () {
-            $(".header-left").removeClass("open"); 
+            $(".header-left").removeClass("open");
         });
         $(".nav-link").on("click", function () {
             $(".header-left").removeClass("open");
@@ -56,8 +56,6 @@ Table of Content
             }
         });
     }
-
-
 
     /* -----------------------------------
           Share Media
@@ -99,7 +97,7 @@ Table of Content
             }
         });
     }
-    
+
     /* -----------------------------------
 	      All functions
     -----------------------------------*/
