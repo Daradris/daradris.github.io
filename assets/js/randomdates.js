@@ -1,20 +1,11 @@
 /* -----------------------------------------------
-					Js Main
---------------------------------------------------
-    Template Name: Mariam - Personal Portfolio Template
---------------------------------------------------
+					Js RandomDates
 
 Table of Content
-
-	. Preloader
-	. Menu
-    . magnificPopup
-    . Share Media
-    . Testimonials
-	. All Functions
-
-
+	. List of dates
+    . Dates
 ----------------------------------- */
+
 (function ($) {
     "use strict";
     var links=new Array()
@@ -23,10 +14,12 @@ Table of Content
     /* -----------------------------------
              Random Link button
     ----------------------------------- */
+
     function randomDate(){
         var myrandom=Math.round(Math.random() * (links.length - 1))
         window.location=links[myrandom]
     }
+
     /* -----------------------------------
 	      All functions
     -----------------------------------*/
