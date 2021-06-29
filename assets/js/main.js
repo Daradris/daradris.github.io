@@ -108,7 +108,7 @@ Table of Content
 
     });
 
-    $("#scrollspy").load("assets/html/menu.html");
+    $("#js-menu").load("assets/html/menu.html");
 
     // Document on Ready
     $(document).on("ready", function () {
