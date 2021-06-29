@@ -17,14 +17,13 @@ Table of Content
 ----------------------------------- */
 (function ($) {
     "use strict";
+    var links=new Array()
+    links[0]="dates/blog-single-light"
+
     /* -----------------------------------
              Random Link button
     ----------------------------------- */
     function randomDate(){
-        var links=new Array()
-        links[0]="http://www.javascriptkit.com"
-        links[1]="http://www.dynamicdrive.com"
-
         var myrandom=Math.round(Math.random() * (links.length - 1))
         window.location=links[myrandom]
     }
