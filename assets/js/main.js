@@ -117,6 +117,6 @@ Table of Content
         magnificPopup();
     });
 
-    $("#js-menu").load("assets/html/menu.html");
+    $("#menu-left").load("assets/html/menu.html");
 
 })(jQuery);

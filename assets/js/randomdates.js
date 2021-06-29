@@ -9,7 +9,7 @@ Table of Content
 (function ($) {
     "use strict";
     var links=new Array()
-    links[0]="dates/blog-single-light"
+    links[0]="dates/naked-lotus"
 
     /* -----------------------------------
              Random Link button
