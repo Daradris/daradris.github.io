@@ -17,6 +17,7 @@ Table of Content
 ----------------------------------- */
 (function ($) {
     "use strict";
+    $("#js-menu").load("assets/html/menu.html");
 
     /* -----------------------------------
              Preloader
@@ -116,5 +117,6 @@ Table of Content
         testimonials();
         magnificPopup();
     });
+
 
 })(jQuery);
