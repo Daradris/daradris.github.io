@@ -1,0 +1,86 @@
+/* ------------------------------
+		 Dark
+------------------------------ */
+
+.dark{
+    background-color: $bg-color;
+    color:$text-color2;
+
+    h1, h2, h3, h4, h5, h6 ,
+    .about .details .info li span,
+    .blog-single .quote p,
+    .contact .contact-info .item p:first-child,
+    .blog .item .content h5 a,
+    .work-single .details .g-listes .liste li span{
+        color: $white-color;
+    }
+    .about .features .item .icon i,
+    .my-info .item p:last-child,
+    .home .banner p,
+    .nav-link,
+    .home .social-home i,
+    .home .banner h6,
+    .social-footer i,
+    .my-info .item p:first-child,
+    .work-single .details .g-listes .liste li a,
+    .about .features .item p{
+        color:$text-color2;
+    }
+    .about .features .item,
+    .services .item,
+    .works .item,
+    .testimonials .item .content,
+    .blog .item .content,
+    .form,
+    .social-footer a,
+    .testimonials .owl-dot span,
+    .blog-single .content,
+    .about .timeline{
+        background-color: $bg-hover;
+        box-shadow: none;
+    }
+
+    .header-left,
+    .loading ,
+    .blog-single .quote,
+    .blog-single .bottom .social-media a,
+    .blog-single .bottom .tags ul li,
+    .testimonials .item .image:after{
+        background-color: $bg-color;
+    }
+
+
+    .header-left{
+        border-right:1px solid $bg-hover;
+    }
+
+    .about .hero,
+    .services .item:hover .circle{
+        border:1px solid $bg-hover;
+    }
+
+    .form .form-control{
+        border:1px solid $bg-color;
+    }
+
+    .text-muted{
+        color:rgba($white-color,0.7) !important;
+    }
+
+    .text-dark{
+        color:$text-color2 !important;
+    }
+
+    a {
+        color: $text-color2;
+    }
+    .bg-light{
+        background-color: $bg-hover !important;
+    }
+
+    @media screen and (max-width: 768px){
+        .header-left .main-menu {
+            background-color: $bg-color;
+        }
+    }
+}

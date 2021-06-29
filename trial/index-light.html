@@ -8,7 +8,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title>Let's Play!</title>
+    <title> Let yourself be surprised by a random date night</title>
 
     <!-- CSS Plugins -->
     <link rel="stylesheet" href="assets/css/all.css">
@@ -138,6 +138,21 @@
                                     <p class="max-width-450  mt-20 mb-30">
                                         Ready to start a date night?
                                     </p>
+                                    <script>
+                                        var sites = [
+                                            'https://www.google.com',
+                                            'https://www.stackoverflow.com',
+                                            'https://www.example.com',
+                                            'https://www.youtube.com'
+                                        ];
+
+                                        function randomSite() {
+                                            var i = parseInt(Math.random() * sites.length);
+                                            location.href = sites[i];
+                                        }
+                                    </script>
+                                    <a href="#" onclick="randomSite();">Random</a>
+
                                     <a href="#about" class="btn-custom">
                                         <span><i class="fas fa-heart"></i></span>
                                         <span> Start Playing</span>
@@ -148,13 +163,18 @@
                         <!--my-info-->
                         <div class="my-info">
                             <div class="item">
-                                <p class="font-w-700 mb-0">Players:</p>
-                                <p class="mb-0">2+</p>
+                                <p class="font-w-700 mb-0">Email</p>
+                                <p class="mb-0">contact@mariam.com</p>
                             </div>
 
                             <div class="item">
-                                <p class="font-w-700 mb-0">Time needed:</p>
-                                <p class="mb-0">15 mins+</p>
+                                <p class="font-w-700 mb-0">Phone</p>
+                                <p class="mb-0">+113-804-9098</p>
+                            </div>
+
+                            <div class="item">
+                                <p class="font-w-700  mb-0">Location</p>
+                                <p class="mb-0">California ,USA</p>
                             </div>
                         </div>
                      </div>
@@ -183,7 +203,7 @@
 
                      <div class="col-lg-7 d-flex align-items-center">
                         <div class="details">
-                            <h5>Why should you use Random Date Night?</h5>
+                            <h5>Why should we use Random Date Night?</h5>
                             <p class="mb-25">
                                 Random Date Night is a simple framework for couples that provides you with creative way to enjoy intimacy
                                 with your partner. Random Date Night will:
@@ -291,12 +311,10 @@
                                         and not the destination. There is no obligation to perform any act, this is an invitation to be
                                         truly yourself.
                                     </br>
-                                        Both partners will take turns by asking the following 3 questions:
-                                        <ol>
-                                            <li> - What do you truly desire?</li>
-                                            <li> - What are you afraid of?</li>
-                                            <li> - What do you love about me?</li>
-                                          </ol>
+                                        Both partners will take turns by asking 3 questions.
+                                            - What do you truly desire?
+                                            - What are you afraid of?
+                                            - What do you love about me?
                                         </p>
                                 </div>
                             </div>
