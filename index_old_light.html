@@ -30,6 +30,7 @@
 
 <body data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
+    <!--menu-->
     <!--menu toggle-->
     <div class="menu-toggle" id="menuToggle">
         <span></span>
@@ -44,9 +45,9 @@
 
         <!--menu-->
         <div class="main-menu" id="js-menu">
-           <div class="cross bg-base-color">
+            <div class="cross bg-base-color">
                 <span><i class="fas fa-times text-white"></i></span>
-           </div>
+            </div>
             <nav class="menu">
                 <ul class="menu-nav">
                     <li class="nav-item">
@@ -76,13 +77,11 @@
             </nav>
         </div>
 
-        <!--btn-share-->
+            <!--btn-share-->
         <div class="btn-share">
             <span class="social_share text-dark"></span>
         </div>
-
     </div>
-
 
 
     <!--main-->
@@ -138,7 +137,7 @@
                                     <p class="max-width-450  mt-20 mb-30">
                                         Ready to start a date night?
                                     </p>
-                                    <a href="#about" class="btn-custom">
+                                    <a class="btn-custom" onClick="randomDate();" id="btn-random-date">
                                         <span><i class="fas fa-heart"></i></span>
                                         <span> Start Playing</span>
                                     </a>
@@ -899,6 +898,7 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/ajax-contact.js"></script>
+    <script src="assets/js/randomdates"></script>
     <script src="assets/js/main.js"></script>
 
 </body>
