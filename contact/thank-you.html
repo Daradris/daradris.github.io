@@ -8,15 +8,15 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Title -->
-    <title> Mariam - Personal Portfolio Template</title>
+    <title>Let's Play!</title>
 
     <!-- CSS Plugins -->
-    <link rel="stylesheet" href="assets/css/all.css">
-    <link rel="stylesheet" href="assets/css/elegant-font-icons.css">
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/jquery.animatedheadline.css">
-    <link rel="stylesheet" href="assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="../assets/css/all.css">
+    <link rel="stylesheet" href="../assets/css/elegant-font-icons.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 
 
     <!-- Font Google -->
@@ -24,7 +24,7 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <!-- main CSS -->
-    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
 
 </head>
 
@@ -34,56 +34,60 @@
     <div class="menu-toggle" id="menuToggle">
         <span></span>
     </div>
-
     <!--header-left-->
     <div class="header-left" id="scrollspy">
         <!--logo-->
         <div class="logo bg-base-color">
-            <a href="index-light.html" class="text-white mb-0">M</a>
+            <a href="index" class="mb-0"><span><i class="fas fa-heart"></i></span></a>
         </div>
-
         <!--menu-->
         <div class="main-menu" id="js-menu">
-           <div class="cross bg-base-color">
+            <div class="cross bg-base-color">
                 <span><i class="fas fa-times text-white"></i></span>
-           </div>
+            </div>
             <nav class="menu">
                 <ul class="menu-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="index-light.html#home">Home</a>
+                        <a class="nav-link" href="#home">Home</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index-light.html#about">About </a>
+                        <a class="nav-link" href="#HowToPlay">How to play?</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index-light.html#services">Services</a>
+                        <a class="nav-link" onClick="randomDate();" id="btn-random-date" href="#PlayNow">
+                            <span><i class="fas fa-heart"></i></span>
+                            <span> Play Now</span>
+                        </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index-light.html#works">Works</a>
+                        <a class="nav-link" href="#Blog">Blog</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="index-light.html#blog">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="index-light.html#contact">Contact</a>
+                        <a class="nav-link" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
         </div>
-
-        <!--btn-share-->
+            <!--btn-share-->
         <div class="btn-share">
             <span class="social_share text-dark"></span>
         </div>
-
     </div>
-
-
+    <div class="main">
+        <div class="social-footer">
+            <ul class="list-inline">
+                <li><a href="#"><i class="fab fa-facebook-f "></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter "></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram "></i></a></li>
+                <li><a href="#"><i class="fab fa-dribbble "></i></a></li>
+                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </div>
+    </div>
 
     <!--main-->
     <div class="main">
@@ -95,7 +99,7 @@
                     <div class="col-lg-12 col-md-12">
                         <div class="blog-single-inner">
                             <div class="image">
-                                <img src="assets/img/blog/1.jpg" alt="">
+                                <img src="../assets/img/contact/thank-you.jpg" alt="">
                             </div>
                             <div class="content">
                                 <small class="text-muted">09 March, 2020 <span class="dot"></span>  #Design , #web <span class="dot"></span> 15 Min Reads</small>
@@ -135,7 +139,7 @@
                                 <div class="row">
                                     <div class="col-md-12 ">
                                         <div class="image">
-                                            <img src="assets/img/blog/2.jpg" alt="">
+                                            <img src="../assets/img/blog/2.jpg" alt="">
                                             <p>Caption can be used to add info</p>
                                         </div>
                                     </div>
@@ -246,36 +250,6 @@
             </div>
         </footer>
 
-        <!--social-media-->
-        <div class="social-footer">
-            <ul class="list-inline">
-                <li>
-                    <a href="#">
-                        <i class="fab fa-facebook-f"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-instagram "></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <i class="fab fa-behance "></i>
-                    </a>
-                </li>
-            </ul>
-        </div>
     </div>
     <!--Main End-->
 
@@ -285,16 +259,16 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/popper.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 
     <!-- JS Plugins  -->
-    <script src="assets/js/jquery.animatedheadline.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/ajax-contact.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/jquery.animatedheadline.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/ajax-contact.js"></script>
+    <script src="../assets/js/main.js"></script>
 
 </body>
 
