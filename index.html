@@ -40,7 +40,7 @@
     <div class="header-left" id="scrollspy">
         <!--logo-->
         <div class="logo bg-base-color">
-            <a href="index-light.html" class="mb-0"><span><i class="fas fa-heart"></i></span></a>
+            <a href="index" class="mb-0"><span><i class="fas fa-heart"></i></span></a>
         </div>
 
         <!--menu-->
@@ -55,23 +55,22 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About </a>
+                        <a class="nav-link" href="#HowToPlay">How to play?</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
+                        <a class="nav-link" onClick="randomDate();" id="btn-random-date" href="#PlayNow">
+                            <span><i class="fas fa-heart"></i></span>
+                            <span> Play Now</span>
+                        </a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#works">Works</a>
+                        <a class="nav-link" href="#Blog">Blog</a>
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link" href="#blog">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
+                        <a class="nav-link" href="#Contact">Contact</a>
                     </li>
                 </ul>
             </nav>
@@ -171,12 +170,12 @@
         </section>
 
         <!-- About -->
-        <section id="about" class="section about">
+        <section id="HowToPlay" class="section about">
             <div class="container-fluid">
                 <div class="row mb-50 pt-30">
                     <div class="col-md-12">
                         <div class="section-title">
-                        <h2 class="mb-0">How do we play?</h2>
+                        <h2 class="mb-0">How to play?</h2>
                         <p class="text-muted mb-0">Learn more about the rules.</p>
                         </div>
                     </div>
@@ -208,7 +207,7 @@
                                 <li><span>Provides you with safety to explore new intimate ideas</span></li>
                             </ul>
 
-                            <a href="#about" class="btn-custom">
+                            <a href="#HowToPlay" class="btn-custom">
                                 <span><i class="fas fa-cloud-download-alt"></i></span>
                                 <span>Downland The Paper Version</span>
                             </a>
@@ -407,301 +406,8 @@
             </div>
         </section>
 
-        <!-- Services -->
-        <section id="services" class="section services">
-            <div class="container-fluid">
-                <div class="row mb-50">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h2 class="mb-0">My Services</h2>
-                            <p class="text-muted mb-0">I Have Worked With A Number Of Clients.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <!-- item -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="item">
-                            <div class="circle">
-                               <h2>01</h2>
-                            </div>
-                            <div class="content ">
-                                <h5 class="mt-15 mb-10">Photography</h5>
-                                <p class="mb-0">
-                                     Lorem ipsum dolor sit amet consectetuer
-                                     adipiscing elit aenean commodo ligula eget.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="item">
-                            <div class="circle">
-                                <h2>02</h2>
-                            </div>
-                            <div class="content">
-                                <h5 class="mt-15 mb-10">Web Design</h5>
-                                <p class="mb-0">
-                                     Lorem ipsum dolor sit amet consectetuer
-                                      adipiscing elit aenean commodo ligula eget.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="item">
-                            <div class="circle">
-                                <h2>03</h2>
-                            </div>
-                            <div class="content">
-                                <h5 class=" mt-15 mb-10">Web Development</h5>
-                                <p class="mb-0"> Lorem ipsum dolor sit amet
-                                    consectetuer adipiscing elit aenean commodo ligula eget.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="item">
-                            <div class="circle">
-                                <h2>04</h2>
-                            </div>
-                            <div class="content">
-                                <h5 class="mt-15 mb-10">Graphic Design</h5>
-                                <p class="mb-0"> Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="item">
-                            <div class="circle">
-                                <h2>05</h2>
-                            </div>
-                            <div class="content">
-                                <h5 class="mt-15 mb-10">Branding</h5>
-                                <p class="mb-0"> Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean commodo ligula eget.</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- item -->
-                    <div class="col-sm-6 col-lg-4">
-                        <div class="item">
-                            <div class="circle">
-                                <h2>06</h2>
-                            </div>
-                            <div class="content">
-                                <h5 class="mt-15 mb-10">Marketing</h5>
-                                <p class="mb-0"> Lorem ipsum dolor sit
-                                     amet consectetuer adipiscing elit aenean commodo ligula eget.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Works -->
-        <section id="works" class="section works">
-            <div class="container-fluid">
-                <div class="row mb-50">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h2 class="mb-0">My Works</h2>
-                            <p class="text-muted mb-0">A latest creative works in  design and web .</p>
-                        </div>
-                    </div>
-                </div>
-                <!--works-items -->
-                <div class="row works-items">
-                    <div class="col-lg-4 col-md-6">
-                        <!--item -->
-                        <div class="item">
-                            <div class="image">
-                                <img src="assets/img/works/1.jpg" alt="">
-                                <div class="overly">
-                                    <a href="assets/img/works/1.jpg" class="view-work"> View Work</a>
-                                </div>
-                            </div>
-
-                            <div class="details d-flex align-items-center">
-                                <p class="mb-0">Graphic Design</p>
-                                <a href="work-single-light.html" class="ml-auto"><i class="fas fa-external-link-alt"></i> </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!--item -->
-                        <div class="item">
-                            <div class="image">
-                                <img src="assets/img/works/2.jpg" alt="">
-                                <div class="overly">
-                                    <a href="assets/img/works/2.jpg" class="view-work"> View Work</a>
-                                </div>
-                            </div>
-
-                            <div class="details d-flex align-items-center">
-                                <p class="mb-0">PSD Template Design</p>
-                                <a href="work-single-light.html" class="ml-auto">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!--item -->
-                        <div class="item">
-                            <div class="image">
-                                <img src="assets/img/works/3.jpg" alt="">
-                                <div class="overly">
-                                    <a href="assets/img/works/3.jpg" class="view-work"> View Work</a>
-                                </div>
-                            </div>
-
-                            <div class="details d-flex align-items-center">
-                                <p class="mb-0">Mobile Application</p>
-                                <a href="work-single-light.html" class="ml-auto">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!--item -->
-                        <div class="item">
-                            <div class="image">
-                                <img src="assets/img/works/4.jpg" alt="">
-                                <div class="overly">
-                                    <a href="assets/img/works/4.jpg" class="view-work"> View Work</a>
-                                </div>
-                            </div>
-
-                            <div class="details d-flex align-items-center">
-                                <p class="mb-0">Graphic Design</p>
-                                <a href="work-single-light.html" class="ml-auto">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!--item -->
-                        <div class="item">
-                            <div class="image">
-                                <img src="assets/img/works/5.jpg" alt="">
-                                <div class="overly">
-                                    <a href="assets/img/works/5.jpg" class="view-work"> View Work</a>
-                                </div>
-                            </div>
-
-                            <div class="details d-flex align-items-center">
-                                <p class="mb-0">PSD Template Design</p>
-                                <a href="work-single-light.html" class="ml-auto">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <!--item -->
-                        <div class="item">
-                            <div class="image">
-                                <img src="assets/img/works/6.jpg" alt="">
-                                <div class="overly">
-                                    <a href="assets/img/works/6.jpg" class="view-work"> View Work</a>
-                                </div>
-                            </div>
-
-                            <div class="details d-flex align-items-center">
-                                <p class="mb-0">Mobile Application</p>
-                                <a href="work-single-light.html" class="ml-auto">
-                                    <i class="fas fa-external-link-alt"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <!--more works-->
-                    <div class="col-lg-12">
-                        <div class="more-posts">
-                            for more works Visit
-                            <a href="portfolio-light.html">our Portfolio</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- testimonials-->
-        <section class="section testimonials">
-            <div class="container-fluid">
-                <div class="row mb-50">
-                    <div class="col-md-12">
-                        <div class="section-title">
-                            <h2 class="mb-0">My Clients</h2>
-                            <p class="text-muted mb-0">What My Clients Say About Me .</p>
-                        </div>
-                    </div>
-                </div>
-                <!--testimonials-items-->
-                <div class="row">
-                    <div class="col-12">
-                        <div class="owl-carousel">
-                            <!--item 1-->
-                            <div class="item d-flex align-items-center">
-                                <div class="image">
-                                    <img src="assets/img/clients/1.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <span class="icon_quotations_alt2 mb-0 icon"></span>
-                                    <p class="text-muted mb-30 mt-30">In a professional context it often happens that private or corporate clients corder a publication to be made.In a professional
-                                    context it often happens that private or corporate clients corder a publication to be made.</p>
-
-                                    <p class="author mb-0 ">
-                                        <span class="font-w-700">Amar Smith</span>
-                                          <span class="dot"></span> Product Manager</p>
-                                </div>
-                            </div>
-
-                            <!--item 2-->
-                            <div class="item d-flex align-items-center">
-                                <div class="image">
-                                    <img src="assets/img/clients/2.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <span class="icon_quotations_alt2 mb-0 icon"></span>
-                                    <p class="text-muted mb-30 mt-30">In a professional context it often happens that private or corporate clients corder a publication to be made.In a
-                                            professional context it often happens that private or corporate clients corder a publication to be made.</p>
-                                    <p class="author  mb-0 ">
-                                        <span class="font-w-700">Amar Smith</span>
-                                        <span class="dot"></span> Product Manager</p>
-                                </div>
-                            </div>
-
-                            <!--item 3-->
-                            <div class="item d-flex align-items-center">
-                                <div class="image">
-                                    <img src="assets/img/clients/3.jpg" alt="">
-                                </div>
-                                <div class="content">
-                                    <span class="icon_quotations_alt2 mb-0 icon"></span>
-                                    <p class="text-muted mb-30 mt-30">In a professional context it often happens that private or corporate clients corder a publication to be made.In a
-                                            professional context it often happens that private or corporate clients corder a publication to be made.</p>
-                                    <p class="author  mb-0 ">
-                                        <span class="font-w-700">Amar Smith</span>
-                                        <span class="dot"></span> Product Manager
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Blog -->
-        <section class="section blog" id="blog">
+        <section class="section blog" id="Blog">
             <div class="container-fluid">
                 <div class="row mb-50">
                     <div class="col-md-12">
@@ -814,7 +520,7 @@
         </section>
 
         <!-- Contact -->
-        <section class="section contact pb-70" id="contact">
+        <section class="section contact pb-70" id="Contact">
             <div class="container-fluid">
                 <div class="row mb-50">
                     <div class="col-md-12">
