@@ -5,7 +5,7 @@
 	position:fixed;
 	transform-origin: left top;
 	transform:rotate(-90deg) translateX(-100%);
-	width:100vh;
+	width:100vh; 
 	height:100px;
 	.cross{
 		display: none;
@@ -25,10 +25,10 @@
 		display: flex!important;
     	-ms-flex-preferred-size: auto;
 		flex-basis: auto;
-
-		.menu-nav {
-			margin:-2px auto 0 auto;
-			height: 100px;
+	
+		.menu-nav {    
+			margin:-2px auto 0 auto; 
+			height: 100px; 
 			display: flex;
 			padding-left: 0;
 			-webkit-box-orient: horizontal;
@@ -45,12 +45,12 @@
 	padding: 0px 15px;
 	text-align: center;
 	color:$text-color;
-	font-size: 16px;
+	font-size: 16px; 
 	font-weight: $f-w-700;
 	position: relative;
 	text-transform:capitalize;
 	@include ease(0.5);
-	&.active
+	&.active 
 	,&:focus
 	,&:hover{
 		color:$base-color !important;
@@ -59,14 +59,14 @@
 
 	&:hover:after,
 	&.active:after {
-		@include after(0px,auto,6px,6px);
+		@include after(0px,auto,6px,6px);	  
 		background-color: $base-color;
 		right:0;
 		bottom: 30px;
 		border-radius: $rd-circle;
 		text-align: center;
 		margin: auto;
-	}
+	}	
 }
 
 .menu-toggle{
@@ -80,7 +80,7 @@
 	display:none;
 	background-color: $base-color;
 	border-radius: $rd-circle;
-
+		
 	span{
 		width: 5px;
         height: 5px;
@@ -90,7 +90,7 @@
 		top:15px;
 		left:15px;
 		border-radius: $rd-circle;
-
+			
 		&:after,
 		&:before{
 			height: 5px;

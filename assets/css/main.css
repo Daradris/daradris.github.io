@@ -1,27 +1,27 @@
 /* -----------------------------------------------
-				CSS Styles
+				CSS Styles 
 --------------------------------------------------
 
     Template Name: Mariam - Personal Portfolio Template
-
+    
 --------------------------------------------------
 
 Table of Content
 
 	- Global
 	- Header Left
-	- Menu
-	- Home
-	- About
-	- Services
-	- Works
+	- Menu 
+	- Home 
+	- About 
+	- Services 
+	- Works 
     - Testimonials
     - Blog
-	- Contact
-	- Preloader
+	- Contact 
+	- Preloader 
     - Responsive
     - Dark mode
-
+ 
 
 ----------------------------------- */
 /* -----------------------------------
@@ -228,6 +228,56 @@ ul {
 
 .social-footer a i:hover {
   color: #f21e4e !important;
+}
+
+.pagination {
+  text-align: center;
+  margin: auto;
+}
+
+.pagination ul {
+  text-align: center;
+  margin: auto;
+}
+
+.pagination ul li a {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid #6c757d;
+  display: block;
+  text-align: center;
+  line-height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-right: 6px;
+  color: #6c757d;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.pagination ul li a.active, .pagination ul li a:hover {
+  background-color: #f21e4e;
+  color: #ffffff;
+  border: 1px solid #f21e4e !important;
+}
+
+.more-posts {
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 10px;
+}
+
+.more-posts a {
+  color: #f21e4e !important;
+}
+
+.error-page .banner h1 {
+  font-size: 60px;
+}
+
+.error-page .banner h6 {
+  margin-bottom: 30px;
 }
 
 /* ---------- Buttons ---------  */
@@ -894,7 +944,7 @@ ul {
 }
 
 /* ------------------------------
-		 About
+		 About  
 ------------------------------ */
 .about .hero {
   border: 1px solid #f8f9fa;
@@ -992,7 +1042,7 @@ ul {
 }
 
 /* ------------------------------
-		. Services
+		. Services 
 ------------------------------ */
 .services .item {
   padding: 30px;
@@ -1256,7 +1306,7 @@ ul {
 }
 
 /* ---------------------------------
-		Blog
+		Blog 
 --------------------------------- */
 .blog .item {
   position: relative;
@@ -1490,7 +1540,7 @@ ul {
 }
 
 /* ------------------------------
-		Contact
+		Contact 
 ------------------------------ */
 .contact ::-moz-placeholder {
   color: #343a40 !important;
@@ -1543,7 +1593,7 @@ ul {
 }
 
 /* -----------------------------
-		 Preloader
+		 Preloader 
 --------------------------------- */
 .loading {
   position: fixed;
@@ -1671,6 +1721,9 @@ ul {
 }
 
 @media screen and (max-width: 567px) {
+  .error-page .banner h1 {
+    font-size: 50px;
+  }
   h1 {
     font-size: 32px;
   }
@@ -1785,7 +1838,8 @@ ul {
 .dark .social-footer i,
 .dark .my-info .item p:first-child,
 .dark .work-single .details .g-listes .liste li a,
-.dark .about .features .item p {
+.dark .about .features .item p,
+.dark .pagination ul li a {
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -1820,6 +1874,10 @@ ul {
 .dark .about .hero,
 .dark .services .item:hover .circle {
   border: 1px solid #16161d;
+}
+
+.dark .pagination ul li a {
+  border: 1px solid rgba(255, 255, 255, 0.8);
 }
 
 .dark .form .form-control {

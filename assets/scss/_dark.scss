@@ -23,7 +23,8 @@
     .social-footer i,
     .my-info .item p:first-child,
     .work-single .details .g-listes .liste li a,
-    .about .features .item p{
+    .about .features .item p,
+    .pagination ul li a{
         color:$text-color2;
     }
     .about .features .item,
@@ -57,6 +58,9 @@
     .about .hero,
     .services .item:hover .circle{
         border:1px solid $bg-hover;
+    }
+    .pagination ul li a{
+        border:1px solid $text-color2;
     }
 
     .form .form-control{

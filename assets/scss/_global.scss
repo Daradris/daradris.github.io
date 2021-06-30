@@ -195,6 +195,56 @@ ul{
         }
     }  
 }
+
+.pagination{
+    text-align: center;
+    margin: auto;
+    
+    ul{
+        text-align: center;
+        margin: auto;
+        li{
+            a{
+                width:35px;
+                height: 35px;
+                border-radius: $rd-circle;
+                border:1px solid $muted-color;
+                display: block;
+                text-align: center;
+                line-height: 35px;
+                font-size: 14px;
+                font-weight: 700;
+                margin-right: 6px;
+                color:$muted-color;
+                @include easeInOut(0.5);
+                &.active,
+                &:hover{
+                    background-color: $base-color;
+                    color:$white-color;
+                    border:1px solid $base-color !important;
+                }
+            }
+        }
+    }
+}
+.more-posts{
+    text-align: center;
+    text-transform: capitalize;
+    margin-top:10px;
+    a{
+        color:$base-color !important;
+    }
+}
+.error-page{
+    .banner{
+        h1{
+            font-size:60px;
+        }
+        h6{
+            margin-bottom:30px;
+        }
+    }
+}
 /* ---------- Buttons ---------  */
 .btn-custom {
     cursor: pointer;
