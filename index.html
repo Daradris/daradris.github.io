@@ -31,8 +31,68 @@
 <body data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
     <!--menu-->
-    <!-- <div id='menu-left'></div> -->
-    <div w3-include-html="assets/html/menu.html"></div>
+
+    <!--menu toggle-->
+    <div class="menu-toggle" id="menuToggle">
+        <span></span>
+    </div>
+    <!--header-left-->
+    <div class="header-left" id="scrollspy">
+        <!--logo-->
+        <div class="logo bg-base-color">
+            <a href="index-light.html" class="mb-0"><span><i class="fas fa-heart"></i></span></a>
+        </div>
+
+        <!--menu-->
+        <div class="main-menu" id="js-menu">
+            <div class="cross bg-base-color">
+                <span><i class="fas fa-times text-white"></i></span>
+            </div>
+            <nav class="menu">
+                <ul class="menu-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#works">Works</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+            <!--btn-share-->
+        <div class="btn-share">
+            <span class="social_share text-dark"></span>
+        </div>
+    </div>
+    <div class="main">
+        <div class="social-footer">
+            <ul class="list-inline">
+                <li><a href="#"><i class="fab fa-facebook-f "></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter "></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram "></i></a></li>
+                <li><a href="#"><i class="fab fa-dribbble "></i></a></li>
+                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </div>
+    </div>
+
     <!--main-->
     <div class="main">
         <!--Home -->
@@ -851,41 +911,9 @@
     <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
     <script src="assets/js/ajax-contact.js"></script>
-    <script src="assets/js/randomdates"></script>
+    <script src="assets/js/randomdates.js"></script>
     <script src="assets/js/main.js"></script>
 
-    <script>
-        function includeHTML() {
-          var z, i, elmnt, file, xhttp;
-          /* Loop through a collection of all HTML elements: */
-          z = document.getElementsByTagName("*");
-          for (i = 0; i < z.length; i++) {
-            elmnt = z[i];
-            /*search for elements with a certain atrribute:*/
-            file = elmnt.getAttribute("w3-include-html");
-            if (file) {
-              /* Make an HTTP request using the attribute value as the file name: */
-              xhttp = new XMLHttpRequest();
-              xhttp.onreadystatechange = function() {
-                if (this.readyState == 4) {
-                  if (this.status == 200) {elmnt.innerHTML = this.responseText;}
-                  if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
-                  /* Remove the attribute, and call this function once more: */
-                  elmnt.removeAttribute("w3-include-html");
-                  includeHTML();
-                }
-              }
-              xhttp.open("GET", file, true);
-              xhttp.send();
-              /* Exit the function: */
-              return;
-            }
-          }
-        }
-        </script>
-    <script>
-        includeHTML();
-        </script>
 </body>
 
 </html>
