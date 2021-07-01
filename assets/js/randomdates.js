@@ -23,6 +23,6 @@ Table of Content
     /* -----------------------------------
 	      All functions
     -----------------------------------*/
-    $('#btn-random-date').click(function(){ randomDate(); return false; });
+    $('.btn-random-date').on('click', function(){ randomDate(); return false; });
 
 })(jQuery);
