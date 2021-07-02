@@ -1,8 +1,8 @@
 /* -----------------------------------------------
-					Js RandomDates
+                    Js RandomDates
 
 Table of Content
-	. List of dates
+    . List of dates
     . Dates
 ----------------------------------- */
 
@@ -21,7 +21,7 @@ Table of Content
     }
 
     /* -----------------------------------
-	      All functions
+          All functions
     -----------------------------------*/
     $('.btn-random-date').on('click', function(){ randomDate(); return false; });
 

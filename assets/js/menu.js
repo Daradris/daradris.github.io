@@ -20,14 +20,7 @@ Table of Content
     /* -----------------------------------
              Preloader
     ----------------------------------- */
-    function loading() {
-        "use strict";
-        $('.loading').delay(500).fadeOut(500);
-    }
 
-    /* -----------------------------------
-                Menu
-    ----------------------------------- */
     function menu() {
         "use strict";
         $("#menuToggle").on("click", function () {
@@ -42,23 +35,7 @@ Table of Content
         });
     }
 
-
-    /* -----------------------------------
-	       magnificPopup
-    -----------------------------------*/
-    function magnificPopup() {
-        "use strict";
-        $(".works-items .view-work").magnificPopup({
-            type: "image",
-            gallery: {
-                enabled: true
-            }
-        });
-    }
-
-
-
-    /* -----------------------------------
+    /* ----------------------------------
           Share Media
    -----------------------------------*/
     function shareMedia() {
@@ -99,39 +76,27 @@ Table of Content
         });
     }
 
+    function magnificPopup() {
+        "use strict";
+        $(".works-items .view-work").magnificPopup({
+            type: "image",
+            gallery: {
+                enabled: true
+            }
+        });
+    }
+
     /* -----------------------------------
 	      All functions
     -----------------------------------*/
 
-    $("#left-menu").load("assets/html/menu.html");
-
-    // Window on Load
-    $(window).on("load", function () {
+    $(document).on("ready", function () {
         "use strict";
-        loading();
+        shareMedia();
+        menu();
+        testimonials();
+        magnificPopup();
+
     });
-
-
-
-    // $(document).ready(function() {
-    //     "use strict";
-    //     shareMedia();
-    //     menu();
-    //     testimonials();
-    //     magnificPopup();
-
-    // });
-
-    // $(document).on("ready", function () {
-    //     "use strict";
-    //     alert('lkok')  ;
-
-    //     shareMedia();
-    //     menu();
-    //     testimonials();
-    //     magnificPopup();
-    //
-    // });
-
 
 })(jQuery);

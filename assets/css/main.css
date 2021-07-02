@@ -187,6 +187,7 @@ ul {
   background-color: transparent;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  margin-left: 125px;
 }
 
 .social-footer ul li:not(:last-child) {
