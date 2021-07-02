@@ -13,7 +13,7 @@ Table of Content
     . Testimonials
 	. All Functions
 
- 
+
 ----------------------------------- */
 (function ($) {
     "use strict";
@@ -23,6 +23,7 @@ Table of Content
     ----------------------------------- */
     function loading() {
         "use strict";
+
         $('.loading').delay(500).fadeOut(500);
     }
 
@@ -36,10 +37,11 @@ Table of Content
             $(".main").toggleClass("open");
         });
         $(".cross").on("click", function () {
-            $(".header-left").removeClass("open"); 
+            $(".header-left").removeClass("open");
         });
         $(".nav-link").on("click", function () {
             $(".header-left").removeClass("open");
+
         });
     }
 
@@ -99,7 +101,7 @@ Table of Content
             }
         });
     }
-    
+
     /* -----------------------------------
 	      All functions
     -----------------------------------*/
@@ -110,15 +112,19 @@ Table of Content
 
     });
 
-    $("#menu-left").load("assets/html/menu.html");
-
-    // Document on Ready
-    $(document).on("ready", function () {
+    $( document ).ready(function() {
         "use strict";
         shareMedia();
         menu();
         testimonials();
         magnificPopup();
+    });
+
+    // Document on Ready
+    $(document).on("ready", function () {
+        alert("hello world");
+
+
     });
 
 })(jQuery);
