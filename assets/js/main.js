@@ -103,7 +103,7 @@ Table of Content
 	      All functions
     -----------------------------------*/
 
-    $("#left-menu").load("assets/html/menu.html");
+    $("#left-menu").load("../html/menu.html");
 
     // Window on Load
     $(window).on("load", function () {
@@ -113,14 +113,14 @@ Table of Content
 
 
 
-    // $(document).ready(function() {
-    //     "use strict";
-    //     shareMedia();
-    //     menu();
-    //     testimonials();
-    //     magnificPopup();
+    $(document).ready(function() {
+        "use strict";
+        shareMedia();
+        menu();
+        testimonials();
+        magnificPopup();
 
-    // });
+    });
 
     // $(document).on("ready", function () {
     //     "use strict";

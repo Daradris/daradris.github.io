@@ -1,25 +1,11 @@
-/* -----------------------------------------------
-					Js Main
---------------------------------------------------
-    Template Name: Mariam - Personal Portfolio Template
---------------------------------------------------
-
-Table of Content
-
-	. Preloader
-	. Menu
-    . magnificPopup
-    . Share Media
-    . Testimonials
-	. All Functions
-
-
------------------------------------ */
 (function ($) {
     "use strict";
-    /* -----------------------------------
-             Preloader
-    ----------------------------------- */
+
+    function shareMedia() {
+        $('.btn-share').on("click", function () {
+            $('.social-footer').toggleClass('active');
+        });
+    }
 
     function menu() {
         "use strict";
@@ -35,18 +21,6 @@ Table of Content
         });
     }
 
-    /* ----------------------------------
-          Share Media
-   -----------------------------------*/
-    function shareMedia() {
-        $('.btn-share').on("click", function () {
-            $('.social-footer').toggleClass('active');
-        });
-    }
-
-    /* -----------------------------------
-         Testimonials
-    -----------------------------------*/
     function testimonials() {
         $(".testimonials .owl-carousel").owlCarousel({
             loop: true,
@@ -86,17 +60,12 @@ Table of Content
         });
     }
 
-    /* -----------------------------------
-	      All functions
-    -----------------------------------*/
-
     $(document).on("ready", function () {
         "use strict";
         shareMedia();
         menu();
         testimonials();
         magnificPopup();
-
     });
 
 })(jQuery);
