@@ -11,12 +11,12 @@
     <title> Mariam - Personal Portfolio Template</title>
 
     <!-- CSS Plugins -->
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/all.css">
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/elegant-font-icons.css">
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/jquery.animatedheadline.css">
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/magnific-popup.css">
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/owl.carousel.css">
+    <link rel="stylesheet" href="/assets/css/all.css">
+    <link rel="stylesheet" href="/assets/css/elegant-font-icons.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/jquery.animatedheadline.css">
+    <link rel="stylesheet" href="/assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="/assets/css/owl.carousel.css">
 
 
     <!-- Font Google -->
@@ -24,66 +24,75 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
 
     <!-- main CSS -->
-    <link rel="stylesheet" href="https://www.randomdatenight.com/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
 
 </head>
 
 <body data-spy="scroll" data-target="#scrollspy" data-offset="1">
 
-    <!--menu toggle-->
-    <div class="menu-toggle" id="menuToggle">
-        <span></span>
+    <!--menu-->
+    <div>
+        <!--menu toggle-->
+        <div class="menu-toggle" id="menuToggle">
+            <span></span>
+        </div>
+
+        <!--header-left-->
+        <div class="header-left" id="scrollspy">
+            <!--logo-->
+            <div class="logo bg-base-color">
+                <a href="index.html" class="mb-0"><span><i class="fas fa-heart"></i></span></a>
+            </div>
+
+            <!--menu-->
+            <div class="main-menu" id="js-menu">
+                <div class="cross bg-base-color">
+                    <span><i class="fas fa-times text-white"></i></span>
+                </div>
+                <nav class="menu">
+                    <ul class="menu-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#HowToPlay">How to play?</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link btn-random-date" onClick="randomDate();" href="#PlayNow">
+                                <span><i class="fas fa-heart"></i></span>
+                                <span> Play Now</span>
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Blog">Blog</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+                <!--btn-share-->
+            <div class="btn-share">
+                <span class="social_share text-dark"></span>
+            </div>
+        </div>
+
+        <!-- btn-->
+        <div class="social-footer">
+            <ul class="list-inline">
+                <li><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.randomdatenight.com%2F&amp;src=sdkpreparse"><i class="fab fa-facebook-f "></i></a></li>
+                <li><a target="_blank" href="http://twitter.com/share?text=Enjoying my date night using Random Date Night&url=http://www.randomdatenight.com&hashtags=sensuality,playfulness,sexuality"><i class="fab fa-twitter "></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram "></i></a></li>
+                <li><a href="#"><i class="fab fa-dribbble "></i></a></li>
+                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </div>
     </div>
-
-    <!--header-left-->
-    <div class="header-left" id="scrollspy">
-        <!--logo-->
-        <div class="logo bg-base-color">
-            <a href="index" class="mb-0">M</a>
-        </div>
-
-        <!--menu-->
-        <div class="main-menu" id="js-menu">
-           <div class="cross bg-base-color">
-                <span><i class="fas fa-times text-white"></i></span>
-           </div>
-            <nav class="menu">
-                <ul class="menu-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.randomdatenight.com#home">Home</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.randomdatenight.com#about">About </a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.randomdatenight.com#services">Services</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.randomdatenight.com#works">Works</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.randomdatenight.com#blog">Blog</a>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.randomdatenight.com#contact">Contact</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-
-        <!--btn-share-->
-        <div class="btn-share">
-            <span class="social_share text-dark"></span>
-        </div>
-
-    </div>
-
-
 
     <!--main-->
     <div class="main">
@@ -96,7 +105,7 @@
                             <div class="full-width">
                                 <div class="banner">
                                     <h1>404 Not Found</h1>
-                                    <h6>Its looks like nothing was found at this location </h6>
+                                    <h6>Its looks like nothing was found at this location</h6>
                                     <a href="https://www.randomdatenight.com" class="btn-custom">
                                         <span><i class="fas fa-home"></i></span>
                                         <span>Go Back to Home</span>
@@ -109,16 +118,6 @@
             </div>
         </section>
 
-        <!--social-media-->
-        <div class="social-footer">
-            <ul class="list-inline">
-                <li><a href="#"><i class="fab fa-facebook-f "></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter "></i></a></li>
-                <li><a href="#"><i class="fab fa-instagram "></i></a></li>
-                <li><a href="#"><i class="fab fa-dribbble "></i></a></li>
-                <li><a href="#"><i class="fab fa-behance"></i></a></li>
-            </ul>
-        </div>
     </div>
     <!--Main End-->
 
@@ -128,16 +127,16 @@
     </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://www.randomdatenight.com/assets/js/jquery.min.js"></script>
-    <script src="https://www.randomdatenight.com/assets/js/popper.min.js"></script>
-    <script src="https://www.randomdatenight.com/assets/js/bootstrap.min.js"></script>
+    <script src="/assets/js/jquery.min.js"></script>
+    <script src="/assets/js/popper.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 
     <!-- JS Plugins  -->
-    <script src="https://www.randomdatenight.com/assets/js/jquery.animatedheadline.min.js"></script>
-    <script src="https://www.randomdatenight.com/assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="https://www.randomdatenight.com/assets/js/owl.carousel.min.js"></script>
-    <script src="https://www.randomdatenight.com/assets/js/ajax-contact.js"></script>
-    <script src="https://www.randomdatenight.com/assets/js/main.js"></script>
+    <script src="/assets/js/jquery.animatedheadline.min.js"></script>
+    <script src="/assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="/assets/js/owl.carousel.min.js"></script>
+    <script src="/assets/js/ajax-contact.js"></script>
+    <script src="/assets/js/main.js"></script>
 
 </body>
 
