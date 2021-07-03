@@ -1743,7 +1743,6 @@ ul {
   }
   .home {
     padding: 0;
-    background-position: unset !important;
   }
   .home .banner h1.cd-headline {
     font-size: 32px;
