@@ -10,6 +10,7 @@
 
     $("#bottom-social").load("https://www.randomdatenight.com/assets/html/social.html");
 
+    $("#footer").load("https://www.randomdatenight.com/assets/html/footer.html");
 
 
     $(window).on("load", function () {
