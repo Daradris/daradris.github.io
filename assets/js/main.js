@@ -12,6 +12,7 @@
 
     $("#footer").load("https://www.randomdatenight.com/assets/html/footer.html");
 
+    $("#header").load("https://www.randomdatenight.com/assets/html/header.html");
 
     $(window).on("load", function () {
         "use strict";
