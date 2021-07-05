@@ -70,5 +70,4 @@
 
     $("#social-menu").load("https://www.randomdatenight.com/assets/html/social.html");
 
-
 })(jQuery);
