@@ -3,8 +3,6 @@
 
     function loading() {
         "use strict";
-        $("#header").load("https://www.randomdatenight.com/assets/html/header.html");
-
         $('.loading').delay(500).fadeOut(500);
     }
 
@@ -13,8 +11,6 @@
     $("#bottom-social").load("https://www.randomdatenight.com/assets/html/social.html");
 
     $("#footer").load("https://www.randomdatenight.com/assets/html/footer.html");
-
-    // $("#header").load("https://www.randomdatenight.com/assets/html/header.html");
 
     $(window).on("load", function () {
         "use strict";
