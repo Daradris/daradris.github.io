@@ -8,6 +8,8 @@
 
     $("#left-menu").load("https://www.randomdatenight.com/assets/html/menu.html");
 
+    $("#bottom-social").load("https://www.randomdatenight.com/assets/html/social.html");
+
 
 
     $(window).on("load", function () {
