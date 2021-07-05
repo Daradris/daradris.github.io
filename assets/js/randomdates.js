@@ -10,6 +10,7 @@ Table of Content
     "use strict";
     var links=new Array()
     links[0]="dates/naked-lotus"
+    links[1]="dates/from-dry-to-wet"
 
     /* -----------------------------------
              Random Link button
